@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Trang chủ</title>
+</head>
+<body>
+   <form action="/home/user" method="post">
+      <input type="radio" id="create_table" name="table" value="create_table">
+      <label for="create_table">Thêm dữ liệu bảng</label><br>
+
+      <input type="radio" id="update_table" name="table" value="update_table">
+      <label for="update_table">Cập nhật bảng</label><br>
+
+      <input type="radio" id="read_table" name="table" value="read_table">
+      <label for="read_table">Xem chi tiết bảng</label><br>
+
+      <input type="radio" id="delete_table" name="table" value="delete_table">
+      <label for="delete_table">Xóa dữ liệu bảng</label><br><br>
+
+      <button type="submit">Đi</button>
+   </form>
+</body>
+</html>
