@@ -17,7 +17,7 @@ class Classroom(db.Model):
 
     @property
     def uid(self):
-        return f"PH{self.id}"
+        return f"LH{self.id}"
 
     def __init__(self, capacity):
         self.capacity = capacity
@@ -92,3 +92,4 @@ class Class(db.Model):
 
 # db.drop_all()
 # db.create_all()
+
